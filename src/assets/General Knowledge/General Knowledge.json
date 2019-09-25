@@ -1,0 +1,53 @@
+[
+{
+    "label": "Accra is the capital of which African country?",
+    "choices": [
+        {"value": "Kenya", "correct": false},
+        {"value": "Ghana", "correct": true},
+        {"value": "Nigeria", "correct": false},
+        {"value": "Cameroon", "correct": false}
+    ]
+},
+
+{
+    "label": "The Altamira Caves are a famous landmark in which European country?",
+    "choices": [
+        {"value": "Spain", "correct": true},
+        {"value": "Portugal", "correct": false},
+        {"value": "Germany", "correct": false},
+        {"value": "United Kingdom", "correct": false}
+    ]
+},
+
+{
+    "label": "In Scrabble, how many points is the letter K worth?",
+    "choices": [
+        {"value": "3", "correct": false},
+        {"value": "2", "correct": false},
+        {"value": "5", "correct": true},
+        {"value": "1", "correct": false}
+    ]
+},
+
+{
+    "label": "In which year did the USA enter World War II?",
+    "choices": [
+        {"value": "1939", "correct": false},
+        {"value": "1941", "correct": true},
+        {"value": "1940", "correct": false},
+        {"value": "1942", "correct": false}
+    ]
+},
+
+{
+    "label": "Born in Trinidad and Tobago as Onika Tanya Maraj this singer is known by which stagename?",
+    "choices": [
+        {"value": "Mariah Carey", "correct": false},
+        {"value": "Jennifer Lopez", "correct": false},
+        {"value": "Nicki Minaj", "correct": true},
+        {"value": "Eve", "correct": false}
+    ]
+}
+
+
+]
