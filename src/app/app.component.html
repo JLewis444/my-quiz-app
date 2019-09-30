@@ -12,4 +12,5 @@
       [disabled]="!answers.values[currentQuestionIndex]"
       >{{currentQuestionIndex === quiz.questions.length - 1 ? 'View results' : 'Next'}}</button>
   </div>
+  <app-answers *ngIf="showResults" [answers]="answers"></app-answers>
 </div>
