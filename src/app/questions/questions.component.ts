@@ -3,7 +3,7 @@ import { ActivatedRoute } from '@angular/router';
 
 
 
-import { QuestionsService } from '../question.service';
+import { QuestionsService } from '../questions.service';
 import { Quiz, Answers, Choice, Question } from '../quiz.model';
 
 @Component({
@@ -28,7 +28,7 @@ export class QuestionsComponent implements OnInit {
 
     // read from the dynamic route and load the proper quiz data
     this.questionsService.getQuestions(this.route.snapshot.params.quizId)
-    .subcribe(questions => {
+    .subscribe(questions => {
       //initialize everything
       this.questions = questions;
       this.answers = new Answers();
